@@ -1,18 +1,22 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-
-import { AppComponent } from './app.component';
+import { AppComponent } from "./app.component";
+import { BusyLoaderComponent } from "./busy-loader/busy-loader.component";
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BusyLoaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {
+}
