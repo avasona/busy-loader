@@ -28,7 +28,7 @@ export class AppComponent {
     this.overlayOn = false;
     setTimeout(() => {
       this.overlayOn = true;
-    }, 5000);
+    }, 500000);
   }
 
 }

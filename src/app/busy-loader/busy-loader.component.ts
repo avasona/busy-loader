@@ -19,7 +19,7 @@ export class BusyLoaderComponent implements OnInit {
 
   @Input() styleType: string = "spinner-large";
   @Input() overlay: boolean = false;
-
+  @Input() loadingText: string ;
 
   constructor() {
   }

@@ -4,7 +4,9 @@
   <app-busy-loader
     [invisible]="spinnerLarge"
     [styleType]="'spinner-large'"
-    [overlay]="false">
+    [overlay]="false"
+    [loadingText]="'loading text spinner large'">
+
   </app-busy-loader>
 </div>
 
@@ -14,7 +16,8 @@
   <app-busy-loader
     [invisible]="spinnerSmall"
     [styleType]="'spinner-small'"
-    [overlay]="false">
+    [overlay]="false"
+    [loadingText]="'loading spinner-small'">
 
   </app-busy-loader>
 </div>
@@ -25,7 +28,9 @@
   <app-busy-loader
     [invisible]="loadingDots"
     [styleType]="'loading-dots'"
-    [overlay]="false">
+    [overlay]="false"
+    [loadingText]="'loading loading-dot'">
+
   </app-busy-loader>
 </div>
 
@@ -35,6 +40,8 @@
   <app-busy-loader
     [invisible]="overlayOn"
     [styleType]="'loading-dots'"
-    [overlay]="true">
+    [overlay]="true"
+    [loadingText]="'overlay page'">
+
   </app-busy-loader>
 </div>
